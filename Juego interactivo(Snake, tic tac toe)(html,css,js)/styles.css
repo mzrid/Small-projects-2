@@ -1,0 +1,81 @@
+
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #6657f1;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+body > button {
+    height: 20vh;
+    width: 20vw;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: 0;
+    
+    font-size: 5svw;
+}
+.resultado{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    width: 70vw;
+    position: absolute;
+    background-color: #e7dcb9;
+    color: #fcd75c;
+    text-shadow: 2px 3px 4px #000000;
+    border-radius: 20px;
+}
+
+.container-btns{
+    height: 55vh;
+    width: 55vw;
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    grid-template-rows: repeat(3, 3fr);
+    gap: 5px;
+}
+.container-btns button{
+    cursor: pointer;
+    border: none;
+}
+.container-btns button:nth-child(1){
+    border-right: 2px solid #696868;
+    border-top-left-radius: 15px;
+}
+.container-btns button:nth-child(2){
+    border-top: none;
+}
+.container-btns button:nth-child(3){
+    border-left: 2px solid #696868;
+    border-top-right-radius: 15px;
+}
+.container-btns button:nth-child(4){
+    border-top: 2px solid #696868;
+    border-right: 2px solid #696868;
+}
+.container-btns button:nth-child(5){
+    border-top: 2px solid #696868;
+}
+.container-btns button:nth-child(6){
+    border-top: 2px solid #696868;
+    border-left: 2px solid #696868;
+}
+.container-btns button:nth-child(7){
+    border-top: 2px solid #696868;
+    border-right: 2px solid #696868;
+    border-bottom-left-radius: 15px;
+}
+.container-btns button:nth-child(8){
+    border-top: 2px solid #696868;
+}
+.container-btns button:nth-child(9){
+    border-top: 2px solid #696868;
+    border-left: 2px solid #696868;
+    border-bottom-right-radius: 15px;
+}
