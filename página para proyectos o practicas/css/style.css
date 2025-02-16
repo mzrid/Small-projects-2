@@ -1,0 +1,227 @@
+
+/*--------------H E A D E R-----------------*/
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: #357df8;
+  width: 100%;
+  z-index: 1;
+}
+.header-container-content{
+  background-image: url("../assets/imagenes/header-papel.png");
+  background-size: 101vw 250px;
+  width: 100vw;
+  height:180px;
+  margin-top: -20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+/*  ICONO M  */
+.header-icon{
+  height: 70px;
+  width: 70px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 100%;
+  text-align: center;
+  margin: 30px;
+}
+.header-icon i{
+  font-size: 50px;
+  user-select: none;
+}
+
+
+/*  TITULO  */
+.header-title{
+  flex-grow: 1;
+  text-align: center;
+  font-family: solases;
+  font-size: 30px;
+  letter-spacing: 8px;
+  color: #165eff;
+  user-select: none;
+  text-shadow: 4px 4px 2px #b6ccfa;
+}
+/*  NAV BARRAS  */
+.fa-bars{
+  margin: 0 30px 0 50px;
+  font-size: 50px;
+  z-index: 1;
+  user-select: none;
+}
+.fa-bars:hover{
+  cursor: pointer;
+}
+.header-containerNav{
+  position: fixed;
+  width: 0px;
+  padding: 0px;
+  top: 0px;
+  right: 0px;
+  user-select: none;
+  transition: width 1.5s ease;
+}
+.header-nav{
+  width: 400px;
+  height: 100vh;
+  background-color: #bfcfe9;
+  padding: 10px 15px;
+  overflow-y: auto;
+}
+.header-nav-ul{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  padding: 120px 20px 0;
+}
+.header-nav-ul li{
+  list-style-type: "+";
+  padding: 5px 20px 10px;
+  font-size: 1.2rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 10px 0;
+  border-bottom: 1px solid #005eff;
+}
+.header-nav-ul li:last-child{
+  border-bottom: 0px;
+}
+/*!Funciones con js*/
+.on{
+  width: 400px;
+}
+/*--------------M A I N-----------------*/
+main{
+  background: linear-gradient(#357df8 10%,#d8c2fc 90%);
+  min-height: calc(100vh - 160px);
+}
+.first-section{
+  display: block;
+}
+.container-cards{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.card{
+  display: flex;
+  align-items: center;
+  justify-items: flex-start;
+  width: 750px;
+  max-width: 1000px;
+  height: 250px;
+  margin: 20px 20px 50px 20px;
+  background: linear-gradient(70deg,rgba(126, 132, 226, 0.5),#b9b9e4ee, rgba(199, 218, 235, 0.5));
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px rgba(34, 34, 34, 0.6) ;
+  padding: 10px;
+}
+.container-web{
+  max-width: 400px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.web{
+  max-width: 100%;
+  height: auto;
+  filter: brightness(1);
+}
+.web:hover{
+  filter: brightness(0.9);
+}
+.container-lenguajes{
+  user-select: none;
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: absolute;
+}
+.container-lenguajes i{
+  font-size: 2.5em;
+  
+}
+.container-lenguajes i:nth-child(1){
+  text-shadow: #f36c67 1px 1px 4px;
+}
+.container-lenguajes i:nth-child(2){
+  text-shadow: #3864f7 1px 1px 4px;
+}
+
+.container-lenguajes i:nth-child(3){
+  text-shadow: #f5e50f 1px 1px 2px;
+}
+
+
+.container-text{
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0 20px 10px;
+  color: #165eff;
+  max-height: 300px;
+  overflow-wrap: break-word;
+}
+.container-text .title{
+  font-size: 1.875em;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 350px;
+ 
+}
+.container-text .description{
+  font-size: 1em;
+  width: 300px;
+  height: auto;
+  margin: 10px 0px;
+  padding: 0px;
+  font-family: sans-serif;
+  overflow: hidden;
+}
+.description:hover{
+  overflow: visible;
+}
+
+
+
+.container-nav-btns{
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.navegation-btn{
+  list-style-type: none;
+  font-family:solases;
+  font-size: 20px;
+  color: #165eff;
+  background-color: #bac9e2;
+  border: none;
+  padding: 10px;
+  border-radius: 3px;
+}
+.navegation-btn:hover{
+  color: #ececec;
+  background-color: #165eff;
+  cursor: pointer;
+}
+.active{
+  display: block;
+  color: #ececec;
+  background-color: #165eff;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: solases;
+  src: url("../assets/fonts/Crossed\ Out.otf");
+}

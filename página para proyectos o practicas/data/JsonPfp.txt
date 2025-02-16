@@ -1,0 +1,6 @@
+{
+	"titulo":"Proyecto página con efecto parallax", 
+	"descripción":"Uno de mis primeros proyectos, querpia practicar un poco el efecto parallax y además agregue una animación de seguimiento de cursor", 
+	"tecnologías": "html, css, js", 
+	"url":"https://projects-azure-delta.vercel.app/"
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "titulo":"Primer Proyecto página con efecto parallax", 
+    "descripcion":"Uno de mis primeros proyectos, queria practicar un poco el efecto parallax y además agregue una animación de seguimiento de cursor", 
+    "tecnologías": ["fa-html5", "fa-css3-alt", "fa-square-js"], 
+    "url":"https://projects-azure-delta.vercel.app/"
+  },
+    {"titulo":"Rock, papper, scissors", 
+      "descripcion":"Juego de piedra papel o tijeras en el que practiqué algunas animaciones sencillas", 
+      "tecnologías": ["fa-html5", "fa-css3-alt", "fa-square-js"], 
+      "url":"https://rps-one-sepia.vercel.app/"
+    },
+    {"titulo":"Tic Tac Toe", 
+      "descripcion":"Juego clásico de tic tac toe por turnos", 
+      "tecnologías": ["fa-html5", "fa-css3-alt", "fa-square-js"], 
+      "url":"https://tictactoe-tau-ashen.vercel.app/"
+    }
+]
+
+
